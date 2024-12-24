@@ -1,8 +1,9 @@
-# React + Vite
+# Frontend of limlydraw 
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Rules to work on this project:
 
-Currently, two official plugins are available:
+1, Create fragments and render them into the main file instead of directly coding in Appjsx.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+2, Write Consize comments in the project you are building.
+
+3, When uploading it in the github,create a new branch instead of merging directly into  the main branch

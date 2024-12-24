@@ -1,14 +1,17 @@
-import { useState } from 'react'
+import { useState,useEffect } from 'react'
+import Button from './assets/components/Button'
+import Navbar from './assets/components/Navbar'
 import './App.css'
+import Banner from './assets/components/Banner'
+import FeaturesOverview from './assets/components/FeaturesOverview'
 
 function App() {
+
   return (
     <>
-    <h1>Hello world</h1>
-    <h1>helo world</h1>
-    <h1>helo world</h1>
-    <h1>helo world</h1>
-    <h1>Shamroz khan</h1>
+<Navbar/>
+<Banner/>
+<FeaturesOverview />
     </>
   )
 }
