@@ -10,8 +10,8 @@ const Banner = () => {
     <h2>Sketch Ideas, <span className='banner-txt' >Collaborate </span>Anywhere</h2>
     <p>A simple, powerful whiteboard tool for teams and creators.</p>
     <div className="d-flex align-items-center gap-3">
-    <button className='btn btn-dark'>Start Drawing <i class="fa-solid fa-rocket"></i></button>
-    <button className='btn btn-info'>Learn More <i class="fa-solid fa-chalkboard"></i></button>
+    {/* <button className='btn btn-dark'>Start Drawing <i class="fa-solid fa-rocket"></i></button> */}
+    {/* <button className='btn btn-info'>Learn More <i class="fa-solid fa-chalkboard"></i></button> */}
     </div>{/***flex */}
 
     </div> {/**col */}
