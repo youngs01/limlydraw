@@ -1,4 +1,5 @@
 import React from 'react'
+import Button from './Button'
 
 const Banner = () => {
   return (
@@ -10,10 +11,8 @@ const Banner = () => {
     <h2>Sketch Ideas, <span className='banner-txt' >Collaborate </span>Anywhere</h2>
     <p>A simple, powerful whiteboard tool for teams and creators.</p>
     <div className="d-flex align-items-center gap-3">
-    {/* <button className='btn btn-dark'>Start Drawing <i class="fa-solid fa-rocket"></i></button> */}
-    {/* <button className='btn btn-info'>Learn More <i class="fa-solid fa-chalkboard"></i></button> */}
+    <Button content={"Start Drawing"} icon={"fas fa-pen-ruler"} className={"flex-row-reverse px-4 py-2 fs-18 gap-2"}/>
     </div>{/***flex */}
-
     </div> {/**col */}
 
     <div className="col col-md-6 text-end">
